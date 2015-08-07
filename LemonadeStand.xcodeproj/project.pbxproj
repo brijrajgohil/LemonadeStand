@@ -13,6 +13,8 @@
 		59AB45FC1B75295400E46183 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AB45FB1B75295400E46183 /* Images.xcassets */; };
 		59AB45FF1B75295400E46183 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59AB45FD1B75295400E46183 /* LaunchScreen.xib */; };
 		59AB460B1B75295500E46183 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB460A1B75295500E46183 /* LemonadeStandTests.swift */; };
+		59AB46151B75354400E46183 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB46141B75354400E46183 /* Supplies.swift */; };
+		59AB46171B7536CA00E46183 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB46161B7536CA00E46183 /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		59AB46041B75295400E46183 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AB46091B75295500E46183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59AB460A1B75295500E46183 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		59AB46141B75354400E46183 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		59AB46161B7536CA00E46183 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				59AB45F41B75295400E46183 /* AppDelegate.swift */,
 				59AB45F61B75295400E46183 /* ViewController.swift */,
+				59AB46141B75354400E46183 /* Supplies.swift */,
+				59AB46161B7536CA00E46183 /* Price.swift */,
 				59AB45F81B75295400E46183 /* Main.storyboard */,
 				59AB45FB1B75295400E46183 /* Images.xcassets */,
 				59AB45FD1B75295400E46183 /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59AB45F71B75295400E46183 /* ViewController.swift in Sources */,
+				59AB46171B7536CA00E46183 /* Price.swift in Sources */,
+				59AB46151B75354400E46183 /* Supplies.swift in Sources */,
 				59AB45F51B75295400E46183 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
